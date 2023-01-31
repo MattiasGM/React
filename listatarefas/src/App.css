@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+
+  --background-color: #0a4f70;
+  --background-color-button-red: #f04c64;
+  --background-color-button-cian: #51c5de;
+  --background-color-button-cian-ligth: #51c4de38;
+}
+
+body {
+  font-family: sans-serif;
+  background: var(--background-color);
+}
+
+button {
+  cursor: pointer;
+}
